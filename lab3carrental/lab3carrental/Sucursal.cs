@@ -11,9 +11,9 @@ namespace lab3carrental
         string nombre;
         string Direccion;
         
-        public Sucursal (string miNombre , string mDireccion)
+        public Sucursal (string mNombre , string mDireccion)
         {
-            nombre = miNombre;
+            nombre = mNombre;
             Direccion = mDireccion;
         }
     }
