@@ -13,5 +13,5 @@ namespace lab3carrental
         {
             this.id = miId;
         }
-    }
+    }  
 }

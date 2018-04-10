@@ -11,15 +11,13 @@ namespace lab3carrental
         string Patente;
         string Marca;
         int rueda;
-        string motor;
-        string consumo;
-        public Vehiculo(string mPatente , string mMarca , int mRueda , string mMotor , string mConsumo)
+        string tipo;
+        public Vehiculo(string mPatente , string mMarca , int mRueda , string mTipo)
         {
             Patente = mPatente;
             Marca = mMarca;
             rueda = mRueda;
-            motor = mMotor;
-            consumo = mConsumo;
+            tipo = mTipo;
         }
     }
 }

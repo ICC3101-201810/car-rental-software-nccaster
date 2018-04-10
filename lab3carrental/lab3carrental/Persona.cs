@@ -17,5 +17,6 @@ namespace lab3carrental
             this.Apellido = miApellido;
             this.Licencia = miLicencia;
         }
+        public string ObtenerLicencia { get { return Persona.Licencia; } }
     }
 }
